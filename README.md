@@ -17,6 +17,7 @@ git clone https://github.com/Alan-Garci/exa-tiktok-search-engine.git
 cd exa-tiktok-search-engine
 
 ### 2. Install dependencies
+```bash
 pip install exa-py python-dotenv
 
 ### 3. Add your API key
