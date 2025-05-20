@@ -15,19 +15,25 @@ This project is a Python-based search tool that uses the [Exa API](https://exa.a
 ```bash
 git clone https://github.com/Alan-Garci/exa-tiktok-search-engine.git
 cd exa-tiktok-search-engine
+```
 
 ### 2. Install dependencies
 ```bash
 pip install exa-py python-dotenv
+```
 
 ### 3. Add your API key
+```bash
 create a .env file in the root directory with:
 EXA_API_KEY=your_actual_api_key_here
+```
 
 ### 4. Run the script
+```bash
 python main.py
+```
 
-This project is based on a tutorial from Codedex. While completing it, I learned how to:
+# This project is based on a tutorial from Codedex. While completing it, I learned how to:
 - Work with 3rd party APIs in python
 - Filter Search results with domain constraints
 - Securely manage API keys using dotenv
